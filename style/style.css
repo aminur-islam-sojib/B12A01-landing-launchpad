@@ -32,8 +32,9 @@
     transition: 0.5s;
 }
 .btn:hover{
-    background-color: #0e0a57;
-    box-shadow: 0 0 5px #6a63ff, 0 0 5px #4E47FF;
+    background-color: transparent;
+    color: #4E47FF;
+    border: 1px solid #4E47FF;
 }
 /* Header */
 header {
@@ -46,4 +47,18 @@ header {
 .nav-bar h1 {
     font-size: 34px;
     font-weight: 800;
+}
+.header-txt {
+    flex-direction: column;
+    margin: 100px 0 0 0;
+}
+.header-txt h1 {
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 37px;
+    color: #252432;
+}
+.btn-header {
+    margin-bottom: 100px;
 }

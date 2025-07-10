@@ -196,6 +196,7 @@ header {
 .contact {
     margin: 110px 140px;
     justify-content: space-between;
+    gap: 50px;
 }
 .contact h1 {
     font-size: 95px;
@@ -210,7 +211,7 @@ form {
     justify-content: flex-start;
 }
 .form-input input , textarea{
-    height: 70px;
+    height: 50px;
     width: 450px;
     border: none;
     border-radius: 10px;
@@ -237,4 +238,42 @@ textarea:hover{
 }
 input[type="button"] {
     width: 450px;
+}
+/* Contact Close  */
+
+/* Footer  */
+footer {
+    padding: 100px 450px;
+    background-color: white;
+}
+.footer {
+    flex-direction: column;
+}
+.logo img {
+    height: auto;
+    width: 100px;
+}
+.logo h1 {
+    font-size: 85px;
+    font-weight: 800;
+}
+.footer p {
+    margin: 8px 0 20px;
+    text-align: center;
+}
+.links ul {
+    gap: 20px;
+}
+.links ul li {
+    list-style: none;
+}
+.links li a {
+    text-decoration: none;
+    color: #252432;
+    opacity: 50%;
+    transition: 0.5s;
+}
+.links li a:hover {
+    color: #0222bd;
+    opacity: 100%;
 }

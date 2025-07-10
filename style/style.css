@@ -191,3 +191,50 @@ header {
     cursor: pointer;
 }
 /* Focus Closed  */
+
+/* Contact  */
+.contact {
+    margin: 110px 140px;
+    justify-content: space-between;
+}
+.contact h1 {
+    font-size: 95px;
+    font-weight: 800;
+    line-height: 120%;
+}
+form {
+    flex-direction: column;
+}
+.form-input{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.form-input input , textarea{
+    height: 70px;
+    width: 450px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    outline: none;
+    font-size: 20px;
+    box-shadow: 0px 1px 2px #252432;
+    background-color: transparent;
+    transition: 0.9s;
+}
+.form-input label {
+    padding-bottom: 5px;
+}
+.form-input input:hover {
+    background-color: #4d47ff30;;
+}
+textarea {
+    padding-top: 20px;
+    height: 90px;
+}
+textarea:hover{
+    background-color: #4d47ff30;
+}
+input[type="button"] {
+    width: 450px;
+}
